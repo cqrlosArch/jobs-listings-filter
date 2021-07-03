@@ -30,12 +30,12 @@ const JobImg = styled.img.attrs((props) => ({
   left: 0;
   transform: translate(50%, -50%);
 `;
-const JobTitle = styled.h2`
+const JobTitle = styled.h3`
   font-size: 1rem;
   font-weight: 900;
   margin: 1.3rem 0;
 `;
-const JobCompany = styled.h1`
+const JobCompany = styled.h2`
   font-size: 0.8rem;
   color: var(--cyan);
 `;
