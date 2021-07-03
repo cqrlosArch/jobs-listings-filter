@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const FilterStyled = styled.section.attrs((props) => ({
-  'aria-label': 'Filter',
+  'aria-label': 'Filter'
 }))`
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   flex-wrap: wrap;
