@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://recipe-page.cqrlosarch.vercel.app/">
+    <a href="https://jobs-listings-filter-git-main-cqrlosarch.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/6oFB5CSJVGzlosBSF4a3">
+    <a href="https://www.frontendmentor.io/solutions/job-listings-filter-reactjs-and-styledcomponents-zDbCOitAR">
       Solution
     </a>
     <span> | </span>
@@ -39,17 +39,15 @@
 
 
 <p align="center">
-  <img src="screenshot.PNG">
+  <img src="screenshot.png">
 </p>
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [Workflow Gulp @cqrlosArch](https://github.com/cqrlosArch/workflow-gulp)
-- [Pug](https://pugjs.org/api/getting-started.html)
-- [Sass](https://sass-lang.com/)
-- [Gulp](https://gulpjs.com/)
+- [React](https://reactjs.org/)
+- [Styled Components](https://styled-components.com/)
 
 ## How To Use
 

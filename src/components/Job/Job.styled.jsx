@@ -20,6 +20,7 @@ const JobStyled = styled.article`
 
 const JobImg = styled.img.attrs((props) => ({
   src: props.logo,
+  alt:props.company
 }))`
   width: 100%;
   max-width: 50px;

@@ -25,7 +25,7 @@ function Job(props) {
 
   return (
     <JobStyled featured={featured}>
-      <JobImg logo={logo} />
+      <JobImg logo={logo} company={company} />
       <div className="container">
         <JobCompany>{company}</JobCompany>
         {props.job.new && <JobLabelNew>New!</JobLabelNew>}
