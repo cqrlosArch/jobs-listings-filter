@@ -5,15 +5,7 @@ import TagStyled from './Tag.styled';
 function Tag({ tag, filter }) {
   const { getTags, removeTag } = useContext(AppContext);
 
-  const handleClick = () => {
-    if (!filter) {
-      getTags(tag);
-    }
-
-    if (filter) {
-      removeTag(tag);
-    }
-  };
+  const handleClick = () => (filter ? removeTag(tag) : getTags(tag));
 
   return (
     <TagStyled onClick={handleClick} filter={filter}>
