@@ -15,6 +15,9 @@ const TagStyled = styled.span`
   position: relative;
   overflow: hidden;
   height: 30px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
 
   &:hover {
     color: ${({ filter }) => !filter && 'var(--white)'};

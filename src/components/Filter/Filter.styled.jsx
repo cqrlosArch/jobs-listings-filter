@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const FilterStyled = styled.section.attrs((props) => ({
-  'aria-label': 'Filter'
+  'aria-label': 'Filter',
 }))`
   display: ${({ visible }) => (visible ? 'flex' : 'none')};
   flex-wrap: wrap;
@@ -24,7 +24,7 @@ const ButtonStyled = styled.button`
   border: none;
   background-color: transparent;
   position: absolute;
-  right: 0;
+  right: 2%;
   top: 50%;
   color: var(--cyanDark);
   font-family: 'Spartan', sans-serif;
